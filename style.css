@@ -20,7 +20,6 @@ body {
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
-    color: white;
 }
 
 #display {
@@ -29,7 +28,8 @@ body {
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: hsl(0, 0%, 20%)
+    background-color: hsl(0, 0%, 20%);
+    color: white;
 }
 
 button {
