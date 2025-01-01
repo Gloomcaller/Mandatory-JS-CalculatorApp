@@ -44,14 +44,22 @@ button {
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: darkorange;
 }
 
-button:hover:last-child{
+button:active {
+    background-color: gray;
+}
+
+.operator {
+    background-color: darkgreen;
+}
+
+.operator:hover {
     background-color: darkred;
 }
 
-button:active{
-    background-color: gray;
+.operator:active {
+    background-color: hsl(0, 0%, 35%);
 }
